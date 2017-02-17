@@ -1,0 +1,299 @@
+body,html 
+{
+    position: relative; 
+	height:100%;
+}
+.affix 
+{
+    top:0;
+    width: 100%;
+	z-index: 9999 !important;
+}
+.navbar 
+{
+    margin: 0px;
+}
+
+#Onas
+{
+    padding:5%;color: #fff; background-color: #1E88E5;
+}
+
+#Oferta 
+{
+    padding:5%;color: #fff; background-color: #673ab7;
+}
+
+
+
+#Referencje 
+{
+    padding:5%;color: #fff; background-color: #ff9800;
+}
+
+#Galeria 
+{
+    padding:5%;color: #fff; background-color: #00bcd4;
+
+}
+
+#Kontakt 
+{
+    padding:5%;color: #fff; background-color: #009688;
+}
+.navbar-brand > img 
+{
+    height: 100%;
+    margin:auto;
+}
+.navbar-header
+{
+    padding:0px;
+    margin:auto;
+}
+.navbar-brand
+{
+    padding:0px;
+}
+
+.parallax {
+    /* The image used */
+   
+
+    /* Full height */
+    height: 60%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg1
+{
+	 background-image: url('img/bg1.jpg');
+}
+#bg2
+{
+	 background-image: url('img/bg2.jpg');
+}
+#bg3
+{
+	 background-image: url('img/bg3.jpg');
+}
+#bg4
+{
+	 background-image: url('img/bg4.jpg');
+}
+#bg5
+{
+	 background-image: url('img/bg5.jpg');
+}
+
+#logo > img
+{
+	
+	width:62.25%;
+    margin:auto;
+
+
+}
+#logo
+{
+	text-align: center;
+	background:#99FFFF;
+    margin:0px;
+}
+
+.container-fluid
+{
+	text-align:justify;
+}
+.container-fluid > h1
+{
+	text-align:center;
+    padding-bottom: 5%;
+}
+h1
+{
+    margin:0px
+}
+
+.container-fluid > p,li
+{
+  font-size: 1.5em;
+  text-align:center;
+}
+#Oferta > ul > li
+{
+	text-align:left;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+.item > img
+{
+    width: 100%;
+	
+}
+
+#Galeria
+{
+	text-align:center;
+}
+#carousel-example-generic2
+{
+	display:inline-block;
+
+	max-height:50%;
+
+}
+ .carousel-caption > h3, p
+{
+	font-size: 2vw;
+}
+#stopka
+{
+    text-align: center;
+    background: black;
+    color: white
+}
+.navbar-nav > ul > li
+{
+	text-align: left;
+}
+
+#container1
+{
+	background-color: white;
+	font-size: 20px !important;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+
+}
+#Kontakt
+{
+	text-align: center;
+
+}
+
+#container1 > p
+{
+	font-size:20px;
+}
+
+#p
+{
+	color:black;
+}
+#container2
+{
+
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#container2 > p
+{
+	font-size: 20px;
+}
+
+input[type=text],
+input[type=password]
+{
+	width: 100%;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+input[type=submit]
+{
+	width: 100%;
+	background-color: #36b03c;
+	font-size:20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]:hover
+{
+	background-color: #37b93d;
+}
+
+input::-webkit-input-placeholder
+{
+    color: #999;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #428C42;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+    color: #999;
+}
+input:focus:-moz-placeholder
+{
+    color: #428C42;
+}
+/* Firefox > 19 */
+input::-moz-placeholder
+{
+    color: #999;
+}
+input:focus::-moz-placeholder
+{
+    color: #428C42;
+}
+/* Internet Explorer 10 */
+input:-ms-input-placeholder
+{
+    color: #999;
+}
+input:focus:-ms-input-placeholder
+{
+    color: #428C42;
+}
+
+
